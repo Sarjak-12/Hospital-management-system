@@ -1,0 +1,37 @@
+Category,Name,Purpose
+Pain and Fever,ï¿½	Acetaminophen (Tylenol),Fever
+Pain and Fever,ï¿½	Ibuprofen (Advil, Motrin),Painkiller
+Pain and Fever,ï¿½	Naproxen (Aleve),Stronger Painkiller
+Cough and Cold,ï¿½	Dextromethorphan (Robitussin DM),Cough
+Cough and Cold,ï¿½	Guaifenesin (Mucinex),cough
+Cough and Cold,ï¿½	Phenylephrine or pseudoephedrine (Sudafed),cold
+Cough and Cold,ï¿½	Chlorpheniramine (Chlor-Trimeton),cold
+Cough and Cold,ï¿½	Diphenhydramine (Benadryl),cold
+Allergies,ï¿½	Cetirizine (Zyrtec),Allergy
+Allergies,ï¿½	Loratadine (Claritin),allergy
+Allergies,ï¿½	Fexofenadine (Allegra),allergy
+Acid Reflux and Indigestion,ï¿½	Antacids (e.g., Tums, Maalox),Indigestion
+Acid Reflux and Indigestion,ï¿½	H2 blockers (e.g., ranitidine, famotidine),Stomach Acid
+Acid Reflux and Indigestion,ï¿½	Proton pump inhibitors (e.g., omeprazole, lansoprazole),Acid Reflux
+Dirrhoea,ï¿½	Loperamide (Imodium),Dirrhoea
+Dirrhoea,ï¿½	Bismuth subsalicylate (Pepto-Bismol),dirrhoea
+Constipation,Metamucil,constipation
+Constipation,Colace,Constipation
+Constipation,Dulcolax,constipation
+Topical Analgesics,•	Hydrocortisone cream (anti-itch),tropical allergies
+Topical Analgesics,•	Lidocaine patches ,for localized pain relief
+First Aid,Nesporin,First-aid
+First Aid,adhesive Bandages,to bind area of impact in wound
+First Aid,gauge/ medical tape,stop bleeding
+Motion Sickness,•	Dimenhydrinate (Dramamine),motion sickness
+Motion Sickness,•	Meclizine (Bonine),motion sickness
+Eye Care,Artificial tears,keep eye wet
+Eye Care,•	Antihistamine eye drops (e.g., Visine-A, Zaditor),help wiith eye ichiness
+Eye Care,•	Lubricating eye ointment,keeps eye moist
+Sleep Aids,•	Diphenhydramine (Benadryl),Helps sleep better
+Sleep Aids,•	Doxylamine (found in some sleep aids),Helps sleep
+Nasal Care,•	Saline nasal spray,keeps nose clear
+Nasal Care,•	Decongestant nasal sprays ,nose care
+Oral Health,•	Antiseptic mouthwash ,keeps mouth clean
+Oral Health,•	Pain-relieving oral gels ,helps with inside mouth injury
+Oral Health,Antifungal medications,antifungal
