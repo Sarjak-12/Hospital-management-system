@@ -7,7 +7,7 @@ root.geometry("1000x550")
 root.resizable(False, False)
 
 # to add icon we need to call a.iconbitmap("filename.ico") function
-root.iconbitmap('img_folder\\download.ico')
+root.iconbitmap('E-Pharma/img_folder/download.ico')
 
 # Function to open the about us page
 def lg_out():
@@ -38,7 +38,7 @@ def use_case():
 
 
 # Adding a background image
-img = PhotoImage(file='img_folder\\ui_1.png')
+img = PhotoImage(file='E-Pharma/img_folder/ui_1.png')
 Label(root, image=img, border=0, height=550, width=1000, bg="white").place(x=0, y=0)
 
 # Frame to add the logo and the name of the app

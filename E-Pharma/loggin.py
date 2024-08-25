@@ -9,13 +9,13 @@ root.configure(bg='white')  # background
 root.resizable(False, False)  # resize horizontal ways or vertical ways
 
 # to add icon we need to call a.iconbitmap("filename.ico") function
-root.iconbitmap('img_folder\\download.ico')
+root.iconbitmap('E-Pharma\img_folder\download.ico')
 
 
 conn = sqlite3.connect('user_database.db')  # Connect to the database
 cursor = conn.cursor()
 
-img = PhotoImage(file='img_folder\\pharmacy1.png')  # add image at side
+img = PhotoImage(file='E-Pharma\img_folder\pharmacy1.png')  # add image at side
 Label(root, image=img, bg='white').place(x=50, y=20)
 
 frame = Frame(root, width=350, height=350, bg='lavender')  # background frame for login work

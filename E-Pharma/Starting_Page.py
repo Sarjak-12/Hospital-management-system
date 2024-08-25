@@ -7,7 +7,7 @@ root.resizable(False, False)
 root.config(bg="#2A2F4F")
 
 # to add icon we need to call a.iconbitmap("filename.ico") function
-root.iconbitmap('img_folder\\download.ico')
+root.iconbitmap('E-Pharma\img_folder\download.ico')
 
 def register_action():
     root.destroy()

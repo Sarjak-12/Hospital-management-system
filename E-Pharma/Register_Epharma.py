@@ -23,7 +23,7 @@ register.resizable(False,False)
 
 
 # to add icon we need to call a.iconbitmap("filename.ico") function
-register.iconbitmap('img_folder\\download.ico')
+register.iconbitmap('E-Pharma\img_folder\download.ico')
 
 
 
@@ -80,7 +80,7 @@ def add_user():
 
 ##################################
 # Adding a image on the gui
-img=PhotoImage(file='img_folder\\pharmacy1.png')
+img=PhotoImage(file='E-Pharma\img_folder\pharmacy1.png')
 Label(register,image=img,border=0,bg="white").place(x=50,y=90)
 
 
@@ -128,13 +128,6 @@ username_UI.bind("<FocusOut>",on_leave)
 
 # Making a line under the username Entrybox of Username
 Frame(frame,width=290,height=2,bg='black').place(x=25,y=107)
-
-
-
-
-
-
-
 #####################################################################
 # Making funcions for animations in the entrybox of password
 
@@ -144,11 +137,6 @@ def on_enter(e):
 def on_leave(e):
     if password_UI.get()=='':
         password_UI.insert(0,'Password')
-
-
-
-
-
 #Creating entryboxes for user input of password
 
 password_UI=Entry(frame,width=25,fg='black',border=2,bg='white', bd=0,background="lavender",font=('Microsoft Yahei UI Light',11))
@@ -156,22 +144,8 @@ password_UI.place(x=30,y=150)
 password_UI.insert(0,"Password")#adds a default entry on entrybox when running the code
 password_UI.bind("<FocusIn>",on_enter)
 password_UI.bind("<FocusOut>",on_leave)
-
-
-
-
 # Making a line under the username Entrybox of password
 Frame(frame,width=290,height=2,bg='black').place(x=25,y=177)
-
-
-
-
-
-
-
-
-
-
 #############################################################################
 # Making funcions for animations in the entrybox of confirm password
 
@@ -181,10 +155,6 @@ def on_enter(e):
 def on_leave(e):
     if confirm_password_UI.get()=='':
         confirm_password_UI.insert(0,'Confirm Password')
-
-
-
-
 #################################################################################
 #Creating entryboxes for user input of confirm password
 
@@ -193,64 +163,20 @@ confirm_password_UI.place(x=30,y=220)
 confirm_password_UI.insert(0,"Confirm Password")#adds a default entry on entrybox when running the code
 confirm_password_UI.bind("<FocusIn>",on_enter)
 confirm_password_UI.bind("<FocusOut>",on_leave)
-
-
-
 # Making a line under the username Entrybox of confirm password
 Frame(frame,width=290,height=2,bg='black').place(x=25,y=247)
-
-
-
-
-
-
-
-
 ##################################################
 # Creating a button for logging in 
 
 Button(frame,width=39,pady=7,text="Register",bg="#57a1f8",fg="white",bd=0,command=add_user).place(x=35,y=280)
-
-
-
-
 #################################################
 # adding a lebel for already existing accounts
 
 label=Label(frame,text='Wanna log a into existing account?',fg='black',background="lavender",font=('Microsoft Yahei UI Light',9))
 label.place(x=75,y=340)
-
-
-
 ###################################################################################################################################################################
 # adding a login button without a background or anything for it to have only underline and if clicked on will open a login page and destroy the register page
 
 login=Button(frame,width=6,text="Log In",bd=0,bg="lavender",cursor='hand2',fg='#57a1f8',underline=True,command=log)
 login.place(x=280,y=340)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 register.mainloop()

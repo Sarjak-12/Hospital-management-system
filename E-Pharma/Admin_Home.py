@@ -9,7 +9,7 @@ root.resizable(False, False)  # Disable resizing
 
 
 # to add icon we need to call a.iconbitmap("filename.ico") function
-root.iconbitmap('img_folder\\download.ico')
+root.iconbitmap('E-Pharma\img_folder\download.ico')
 
 def medicine_usecase():
     # You can replace this function with the one that opens the Add Medicine page

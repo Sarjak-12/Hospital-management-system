@@ -8,7 +8,7 @@ root.configure(bg='#fff')
 root.resizable(False, False)
 
 # to add icon we need to call a.iconbitmap("filename.ico") function
-root.iconbitmap('img_folder\\download.ico')
+root.iconbitmap('E-Pharma\img_folder\download.ico')
 
 def login1():
     root.destroy()
@@ -33,7 +33,7 @@ def back_to_home():
     import ui1
 
 
-img = PhotoImage(file='img_folder\\pharmacy1.png')
+img = PhotoImage(file='E-Pharma\img_folder\pharmacy1.png')
 Label(root, image=img, bg='white').place(x=50, y=20)
 
 frame = Frame(root, width=350, height=350, bg='lavender')

@@ -9,7 +9,7 @@ root.geometry("850x700")
 root.resizable(False, False)  # Disable resizing
 
 # To add an icon, call root.iconbitmap("filename.ico") function
-root.iconbitmap('img_folder\\download.ico')
+root.iconbitmap('E-Pharma\img_folder\download.ico')
 
 # A function to navigate to UI1
 def ui():
